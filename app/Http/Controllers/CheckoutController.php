@@ -129,7 +129,7 @@ class CheckoutController extends Controller
         'city'           => $request->city,
         'state'          => $request->state,
         'zip_code'       => $request->zip_code,
-        'payment_method' => $request->payment_method,
+       'payment_method' => 'cod',
         'payment_status' => $request->payment_method === 'cod' ? 'pending' : 'paid',
         'order_status'   => 'pending',
         'subtotal'       => $subtotal,
