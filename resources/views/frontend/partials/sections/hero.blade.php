@@ -36,7 +36,7 @@
 
                     <!-- CTA Buttons -->
                     <div class="d-flex flex-wrap gap-3 mb-5">
-                        <a href="{{ route('products.index') }}"
+                        <a href="#"
                            class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow-lg hover-lift">
                             <i class="fas fa-shopping-cart me-2"></i> Start Shopping
                         </a>
